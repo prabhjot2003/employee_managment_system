@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Admin Login</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            id="email"
+          />
+          <span class="text-danger" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            id="password"
+          />
+          <span class="text-danger" id="passwordError"></span>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <script src="../javascript/jquery.min.js"></script>
+    <script src="../javascript/bootstrap.min.js"></script>
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>
